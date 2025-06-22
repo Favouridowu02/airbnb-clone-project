@@ -4,6 +4,18 @@
 
 ---
 
+## Technology Stack
+
+- **Django**: A high-level Python web framework used for building robust, scalable, and secure RESTful APIs and backend services.
+- **PostgreSQL**: An advanced open-source relational database system for storing and managing application data securely and efficiently.
+- **GraphQL**: A query language for APIs that enables flexible and efficient data retrieval between the frontend and backend.
+- **JavaScript/React**: Used for building dynamic, responsive, and interactive user interfaces on the frontend.
+- **Docker**: Containerization platform to package and deploy the application consistently across different environments.
+- **Nginx**: A web server and reverse proxy used for serving static files, load balancing, and improving application performance.
+- **Git & GitHub**: Version control and collaboration tools for managing source code and team contributions.
+
+---
+
 ## Team Roles
 
 ### Backend Developer

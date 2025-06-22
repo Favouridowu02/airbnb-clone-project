@@ -106,3 +106,19 @@ Facilitates secure online payments for bookings, including payment tracking and 
 ### Search and Filtering
 Provides advanced search and filtering options for users to find properties based on location, price, amenities, and other criteria. Enhances the user experience by making it easy to discover suitable accommodations.
 
+---
+
+## API Security
+
+### Key Security Measures
+- **Authentication**: Ensures that only registered users can access the platform by verifying user identities through secure login mechanisms (e.g., JWT, OAuth).
+- **Authorization**: Controls user access to resources and actions based on their roles (guest, host, admin), preventing unauthorized operations.
+- **Rate Limiting**: Restricts the number of API requests a user or IP can make in a given timeframe, protecting the platform from abuse and denial-of-service attacks.
+- **Data Encryption**: Encrypts sensitive data in transit (using HTTPS/SSL) and at rest to protect user information and payment details from interception or theft.
+- **Input Validation & Sanitization**: Prevents common vulnerabilities such as SQL injection and cross-site scripting (XSS) by validating and sanitizing all user inputs.
+
+### Importance of Security
+- **Protecting User Data**: Safeguards personal and financial information, maintaining user trust and complying with data protection regulations.
+- **Securing Payments**: Ensures that all payment transactions are processed securely, preventing fraud and unauthorized access to financial data.
+- **Maintaining Platform Integrity**: Prevents unauthorized access, data breaches, and malicious activities that could disrupt service or compromise the application.
+

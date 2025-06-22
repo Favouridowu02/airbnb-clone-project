@@ -86,3 +86,23 @@ Coordinates the team, manages timelines, sets priorities, and ensures that proje
 
 ---
 
+## Feature Breakdown
+
+### User Management
+Handles user registration, authentication, and profile management. Enables users to sign up as guests or hosts, manage their personal information, and securely access the platform.
+
+### Property Management
+Allows hosts to list, update, and manage properties, including details like descriptions, photos, pricing, and availability. This feature ensures that property data is accurate and up-to-date for potential guests.
+
+### Booking System
+Enables guests to search for available properties, make reservations, and manage their bookings. It handles date selection, availability checks, and booking confirmations, forming the core of the platform’s functionality.
+
+### Reviews and Ratings
+Lets guests leave reviews and ratings for properties they have stayed at. This feature helps maintain quality standards and builds trust within the user community by providing feedback to hosts and future guests.
+
+### Payment Processing
+Facilitates secure online payments for bookings, including payment tracking and status updates. Ensures that transactions between guests and hosts are handled efficiently and safely.
+
+### Search and Filtering
+Provides advanced search and filtering options for users to find properties based on location, price, amenities, and other criteria. Enhances the user experience by making it easy to discover suitable accommodations.
+

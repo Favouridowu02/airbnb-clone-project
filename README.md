@@ -16,6 +16,54 @@
 
 ---
 
+## Database Design
+
+### Key Entities & Fields
+
+- **User**
+  - id (unique identifier)
+  - name
+  - email
+  - password_hash
+  - role (guest, host)
+
+- **Property**
+  - id (unique identifier)
+  - title
+  - description
+  - address
+  - owner_id (references User)
+
+- **Booking**
+  - id (unique identifier)
+  - user_id (references User)
+  - property_id (references Property)
+  - start_date
+  - end_date
+
+- **Review**
+  - id (unique identifier)
+  - user_id (references User)
+  - property_id (references Property)
+  - rating
+  - comment
+
+- **Payment**
+  - id (unique identifier)
+  - booking_id (references Booking)
+  - amount
+  - payment_date
+  - status
+
+### Entity Relationships
+- A **User** can own multiple **Properties** (as a host) and make multiple **Bookings** (as a guest).
+- A **Property** is owned by one **User** and can have many **Bookings** and **Reviews**.
+- A **Booking** is made by one **User** for one **Property** and has one **Payment**.
+- A **Review** is written by a **User** for a **Property**.
+- A **Payment** is associated with one **Booking**.
+
+---
+
 ## Team Roles
 
 ### Backend Developer

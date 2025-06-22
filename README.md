@@ -122,3 +122,11 @@ Provides advanced search and filtering options for users to find properties base
 - **Securing Payments**: Ensures that all payment transactions are processed securely, preventing fraud and unauthorized access to financial data.
 - **Maintaining Platform Integrity**: Prevents unauthorized access, data breaches, and malicious activities that could disrupt service or compromise the application.
 
+---
+
+## CI/CD Pipeline
+
+Continuous Integration and Continuous Deployment (CI/CD) pipelines automate the process of building, testing, and deploying code changes. They help ensure that new features, bug fixes, and updates are integrated smoothly and delivered quickly, reducing manual errors and improving software quality.
+
+For this project, tools such as **GitHub Actions** can be used to automate testing and deployment workflows, while **Docker** ensures consistent environments across development, testing, and production. Implementing a CI/CD pipeline enables rapid iteration, reliable releases, and a more efficient development process.
+

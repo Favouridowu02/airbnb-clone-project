@@ -62,6 +62,8 @@
 - A **Review** is written by a **User** for a **Property**.
 - A **Payment** is associated with one **Booking**.
 
+{ds}[./assets]
+
 ---
 
 ## Team Roles

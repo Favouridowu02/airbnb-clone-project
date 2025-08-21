@@ -4,7 +4,7 @@
 
 ---
 
-## Technology Stack
+## Backend Technology Stack
 
 - **Django**: A high-level Python web framework used for building robust, scalable, and secure RESTful APIs and backend services.
 - **PostgreSQL**: An advanced open-source relational database system for storing and managing application data securely and efficiently.
@@ -16,6 +16,65 @@
 
 ---
 
+## Frontend Technology Stack
+
+- **HTML**: A Hypertext Markup language.
+- **CSS**: The Creative styling used. Castading Style sheet
+- **React JS**: The Frame work / Library that would be used to build the UI.
+
+---
+
+## UI / UX Planning
+
+Pages:
+- **Property Listing View**: Grid display of available properties with filters
+- **Listing Detailed View**: Complete property details with images and booking form
+- **Simple Checkout View**: Streamlined payment and booking confirmation
+A user friendly Web site is necessary in the booking system, to mae the users journey seemless and enjoyable. Having a seemsless user experience leads to high retainment of users
+
+Color Styles:
+
+- Primary: #FF5A5F
+- Secondary: #008489
+- Background: #FFFFFF
+- Text: #222222
+- Secondary Text: #717171
+
+Typography:
+
+- Primary Font: Circular, Medium (500), 16px
+- Headings: Circular, Bold (700), 24px-32px
+- Secondary Text: Circular, Book (400), 14px
+  
+The importance of identifying design properties of a mock up design:
+- Facilitates Early Feedback and Iteration
+- When designers provide developers with a mockup that has clearly defined technical properties, it significantly speeds up the development process.
+- Identifying and documenting visual properties, such as color palettes and typography, ensures that the final product remains consistent with the brand's identity.  
+
+**UI Component Patterns**
+
+Planned Components
+
+Navbar:
+- Logo
+- Search bar
+- User navigation
+- Responsive menu
+- Property Card
+
+Property image:
+- Basic details (price, location, rating)
+- Favorite button
+- Responsive layout
+
+Footer:
+
+- Site links
+- Company information
+- Social media links
+- Copyright information
+
+---
 ## Database Design
 
 ### Key Entities & Fields
@@ -66,7 +125,7 @@
 
 ---
 
-## Team Roles
+## Team Roles / Project Roles and Responsibilities
 
 ### Backend Developer
 Responsible for designing, implementing, and maintaining the server-side logic, APIs, and core application functionality. Ensures secure, scalable, and efficient backend services.
@@ -77,8 +136,17 @@ Designs, implements, and manages the database systems. Responsible for data inte
 ### Frontend Developer
 Builds and maintains the user interface and user experience of the application. Works closely with designers and backend developers to deliver responsive and interactive web pages.
 
+### Designer
+Creatively Designs the user interface and user experience of the application. Works closely with Frontend developers to deliver responsive and interactive web pages. Creates mockups, maintains design system, ensures UX quality.
+
 ### DevOps Engineer
 Automates deployment, manages CI/CD pipelines, monitors infrastructure, and ensures the reliability and scalability of the application in production environments.
+
+### Product Owner
+Defines requirements, prioritizes features, represents stakeholders
+
+### Scrum Master
+Facilitates agile processes, removes blockers, organizes meetings
 
 ### QA Engineer
 Develops and executes test plans to ensure the quality and functionality of the application. Identifies bugs, verifies fixes, and maintains automated test suites.

@@ -24,7 +24,7 @@
 
 ---
 
-## UI / UX Planning
+## UI/UX Design Planning
 
 Pages:
 - **Property Listing View**: Grid display of available properties with filters
